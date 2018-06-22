@@ -53,6 +53,8 @@ def play(board)
   move(board, index)
 
   display_board(board)
+  
+  +=1 turn_count  
 
   end
 end
