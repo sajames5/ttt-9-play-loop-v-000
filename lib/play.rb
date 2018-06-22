@@ -38,9 +38,9 @@ end
 
 def play(board)
   
-  turn(board) == 9
+  turn_count = 0
   
-  until turn(board) == 9 
+  until turn_count == 9 
   
   puts "Please enter 1-9"
   
