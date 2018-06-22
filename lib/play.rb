@@ -38,6 +38,8 @@ end
 
 def play(board)
   
+  turn(board) == 9
+  
   until turn(board) == 9 
   
   puts "Please enter 1-9"
