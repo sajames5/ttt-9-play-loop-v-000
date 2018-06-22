@@ -54,7 +54,7 @@ def play(board)
 
   display_board(board)
   
-  +=1 turn_count  
+  turn_count +=1
 
   end
 end
